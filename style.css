@@ -275,10 +275,14 @@
     position: absolute;
   }
   .skip-to-main {
-    position: absolute;
-    background: var(--background-accent-main);
+    background: var(--clr-green-500);
+    font-size: var(--fs-600);
     padding: 1rem;
-    border-radius: var(--border-radius-2);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    border-radius: var(--border-radius-3);
+    color: white;
   }
 
   .site-header {
